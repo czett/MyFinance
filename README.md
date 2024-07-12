@@ -30,3 +30,57 @@ Add Expense (n): Record a new expense by entering the name and price.
 Add Income (p): Add money received by entering the amount.
 List Expenses and Info (l): View the list of expenses and financial information.
 Exit Program (e): Terminate the application.
+
+## Usage
+
+Add Expense (n): Record a new expense by entering the name and price.
+Add Income (p): Add money received by entering the amount.
+List Expenses and Info (l): View the list of expenses and financial information.
+Exit Program (e): Terminate the application.
+Example Usage
+bash
+Copy code
+$ lua myfinance.lua
+New expense (n)
+Pay/money received (p)
+List expenses and info (l)
+Exit program (e)
+
+n
+
+What did you buy/pay for?
+
+Groceries
+
+How much did you pay?
+
+50
+Added new expense successfully.
+
+New expense (n)
+Pay/money received (p)
+List expenses and info (l)
+Exit program (e)
+
+l
+
+Expenses:
+You bought Groceries for 50
+
+Info:
+spent: 50
+balance: 950
+earned: 0
+
+New expense (n)
+Pay/money received (p)
+List expenses and info (l)
+Exit program (e)
+
+e
+
+## Contributing
+Contributions are welcome! If you have suggestions, bug reports, or want to add features, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
