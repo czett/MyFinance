@@ -1,5 +1,5 @@
-package.path = package.path .. ';/home/raspi/.luarocks/share/lua/5.1/?.lua;/home/raspi/.luarocks/share/lua/5.1/?/init.lua'
-package.cpath = package.cpath .. ';/home/raspi/.luarocks/lib/lua/5.1/?.so'
+-- package.path = package.path .. ';/home/raspi/.luarocks/share/lua/5.1/?.lua;/home/raspi/.luarocks/share/lua/5.1/?/init.lua'
+-- package.cpath = package.cpath .. ';/home/raspi/.luarocks/lib/lua/5.1/?.so'
 
 local json = require("dkjson")
 local filename = "data.json"
